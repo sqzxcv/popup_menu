@@ -38,7 +38,7 @@ typedef MenuClickCallback = Function(MenuItemProvider item);
 
 class PopupMenu {
   static var itemWidth = 72.0;
-  static var itemHeight = 65.0;
+  static var itemHeight = 40.0;
   static var arrowHeight = 10.0;
   OverlayEntry _entry;
   List<MenuItem> items;
